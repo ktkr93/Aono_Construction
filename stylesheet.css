@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Hiragino Kaku Gothic ProN";
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-right {
+    float: right;
+}
+
+.header-right a {
+    display: inline-block;
+    line-height: 65px;
+    padding: 0 25px;
+}
+
+.menu-icon {
+    display: none;
+}
