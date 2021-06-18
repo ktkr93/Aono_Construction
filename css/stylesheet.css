@@ -23,6 +23,7 @@ h2 {
 
 .container {
     max-width: 1170px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -54,13 +55,13 @@ header {
     font-size: 18px;
 }
 
-.menu-icon {
+.btn-trigger {
     display: none;
 }
 
 .top-wrapper {
     height: 800px;
-    background-image: url(images/main.png);
+    background-image: url(../images/main.png);
     background-size: cover;
     display: flex;
     justify-content: center;
