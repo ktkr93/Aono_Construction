@@ -11,6 +11,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+
 h2 {
     text-align: center;
     margin-bottom: 90px;
@@ -97,6 +102,11 @@ dd {
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: solid 1px #000;
+}
+
+dd:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
 }
 
 .news-box {
