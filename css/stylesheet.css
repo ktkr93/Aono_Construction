@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: 'Noto Serif JP', serif;
+    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
 }
 
 a {
@@ -43,6 +43,7 @@ header {
 
 .header-left {
     float: left;
+    margin-left: 25px;
 }
 
 .header-logo {
@@ -71,6 +72,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: center;
 }
 
 .top-wrapper h1 {
