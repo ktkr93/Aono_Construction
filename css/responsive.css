@@ -155,32 +155,23 @@
         padding-top: 40px;
         color: #fff;
     }
+    .footer-container {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 65px;
+    }
+    .footer-container ul {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
     .container {
         margin: 0 auto;
         text-align: center;
         position: relative;
     }
-    .footer-left,
-    .footer-right {
-        float: none;
-    }
-    .footer-left {
-        position: absolute;
-        top: 76%;
-        left: 38%;
-    }
-    .footer-right {
-        display: flex;
-        flex-flow: column;
-    }
-    .footer-right a {
-        display: inline-block;
-        padding: 16px 25px;
-        font-size: 18px;
-    }
     .copyrihgt {
         font-size: 12px;
         text-align: center;
-        margin-top: 90px;
     }
 }

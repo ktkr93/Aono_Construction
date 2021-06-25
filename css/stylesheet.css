@@ -178,22 +178,15 @@ footer {
     color: #fff;
 }
 
-.footer-left {
-    float: left;
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-logo {
     width: 92.38px;
-}
-
-.footer-right {
-    float: right;
-}
-
-.footer-right a {
-    display: inline-block;
-    padding: 0 25px;
-    font-size: 18px;
 }
 
 .copyrihgt {
