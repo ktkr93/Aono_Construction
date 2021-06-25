@@ -61,9 +61,9 @@
         margin: 0;
     }
     .header-logo {
-        width: 60px;
+        width: 70px;
     }
-    .header-right {
+    .header-container ul {
         display: none;
     }
     .top-wrapper {
