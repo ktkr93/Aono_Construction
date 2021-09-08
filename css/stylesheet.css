@@ -26,7 +26,7 @@ h2 {
     clear: both;
 }
 
-.container {
+.page-header {
     max-width: 1170px;
     width: 100%;
     margin: 0 auto;
@@ -67,7 +67,7 @@ li a {
     display: none;
 }
 
-.top-wrapper {
+.top-container {
     height: 800px;
     background-image: url(../images/main.png);
     background-size: cover;
@@ -76,11 +76,11 @@ li a {
     place-items: center;
 }
 
-.top-wrapper h1 {
+.top-container h1 {
     font-size: 48px;
 }
 
-.news-wrapper {
+.page-news {
     margin: 80px 0 160px 0;
 }
 
@@ -118,7 +118,7 @@ dd:hover {
     border: 1px solid #6A808A;
 }
 
-.case-study-wrapper {
+.page-case-study {
     margin: 80px 0 160px 0;
 }
 
@@ -162,11 +162,11 @@ dd:hover {
     padding: 10px 30px;
 }
 
-.link-wrapper {
+.bottom-container {
     display: flex;
 }
 
-.link-wrapper img {
+.bottom-container img {
     width: 100%;
 }
 

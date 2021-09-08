@@ -53,7 +53,7 @@
         z-index: 10;
         margin-top: 30px;
     }
-    .container {
+    .page-header {
         width: 90%;
     }
     .header-left {
@@ -66,10 +66,10 @@
     .header-container ul {
         display: none;
     }
-    .top-wrapper {
+    .top-container {
         height: 342px;
     }
-    .top-wrapper h1 {
+    .top-container h1 {
         font-size: 24px;
     }
     /* 「お知らせ」エリア */
@@ -78,7 +78,7 @@
         margin-bottom: 40px;
         font-size: 24px;
     }
-    .news-wrapper {
+    .page-news {
         margin: 50px 0 100px 0;
     }
     .news-container {
@@ -98,7 +98,7 @@
         clear: left;
     }
     /* 「施工事例」エリア */
-    .case-study-wrapper {
+    .page-case-study {
         margin: 80px 0 140px 0;
     }
     .case-study-container {
@@ -135,11 +135,11 @@
         text-align: center;
     }
     /* リンクエリア */
-    .link-wrapper {
+    .bottom-container {
         display: flex;
         flex-wrap: wrap;
     }
-    .link-wrapper img {
+    .bottom-container img {
         flex: auto;
         width: 100%;
     }
@@ -160,7 +160,7 @@
         flex-direction: column;
         gap: 30px;
     }
-    .container {
+    .page-header {
         margin: 0 auto;
         text-align: center;
         position: relative;
