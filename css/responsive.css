@@ -68,11 +68,6 @@
     }
     .top-wrapper {
         height: 342px;
-        background-image: url(../images/main.png);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-position: 50%;
     }
     .top-wrapper h1 {
         font-size: 24px;

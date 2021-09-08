@@ -71,10 +71,9 @@ li a {
     height: 800px;
     background-image: url(../images/main.png);
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-position: center;
+    display: grid;
+    place-items: center;
 }
 
 .top-wrapper h1 {
