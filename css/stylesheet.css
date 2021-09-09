@@ -7,10 +7,6 @@ body {
     font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 a:hover {
     opacity: 0.5;
     transition: all 0.5s;
@@ -26,29 +22,27 @@ h2 {
     clear: both;
 }
 
-.page-header {
-    max-width: 1170px;
-    width: 100%;
+.page-top {
+    background-image: url(../images/main.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-container {
+    height: 800px;
+    position: relative;
+}
+
+.header-inner {
     margin: 0 auto;
-}
-
-header {
-    height: 65px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    z-index: 10;
-    margin-top: 30px;
-}
-
-.header-container {
+    padding: 30px 20px 0 20px;
+    max-width: 1140px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
-.header-logo {
+.header-logo img {
     width: 138.57px;
 }
 
@@ -67,16 +61,15 @@ li a {
     display: none;
 }
 
-.top-container {
-    height: 800px;
-    background-image: url(../images/main.png);
-    background-size: cover;
-    background-position: center;
-    display: grid;
-    place-items: center;
+.page-top-copy {
+    width: 528px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-264px, -44.9px);
 }
 
-.top-container h1 {
+.page-top-copy h1 {
     font-size: 48px;
 }
 
@@ -86,7 +79,6 @@ li a {
 
 .news-container {
     max-width: 700px;
-    width: 100%;
     margin: 0 auto;
 }
 
