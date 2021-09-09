@@ -4,18 +4,12 @@
 
 body {
     margin: 0;
-    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+    font-family: 'Noto Serif JP', serif;
 }
 
 a:hover {
     opacity: 0.5;
     transition: all 0.5s;
-}
-
-h2 {
-    text-align: center;
-    margin-bottom: 90px;
-    font-size: 36px;
 }
 
 .clear {
@@ -29,6 +23,7 @@ h2 {
 }
 
 .top-container {
+    margin-bottom: 102px;
     height: 800px;
     position: relative;
 }
@@ -73,35 +68,29 @@ li a {
     font-size: 48px;
 }
 
-.page-news {
-    margin: 80px 0 160px 0;
-}
-
 .news-container {
-    max-width: 700px;
-    margin: 0 auto;
+    max-width: 740px;
+    margin: 0 auto 192px auto;
+    padding: 0 20px;
 }
 
-dl {
-    width: 100%;
+.news-container h2 {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 36px;
+}
+
+.news-container dl a {
+    display: flex;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #000;
+    margin-bottom: 20px;
     font-size: 18px;
 }
 
-dt {
-    float: left;
+.news-container dt {
     font-weight: initial;
-    margin-right: 34px;
-}
-
-dd {
-    margin-bottom: 20px;
-    padding-bottom: 20px;
-    border-bottom: solid 1px #000;
-}
-
-dd:hover {
-    opacity: 0.5;
-    transition: all 0.5s;
+    margin-right: 32px;
 }
 
 .news-box {
@@ -110,28 +99,42 @@ dd:hover {
     border: 1px solid #6A808A;
 }
 
-.page-case-study {
-    margin: 80px 0 160px 0;
+.news-container dd:hover {
+    opacity: 0.5;
+    transition: all 0.5s;
 }
 
 .case-study-container {
-    max-width: 1000px;
-    width: 100%;
-    margin: 0 auto;
+    max-width: 1040px;
+    margin: 0 auto 192px auto;
+    padding: 0 20px;
+}
+
+.case-study-container h2 {
+    text-align: center;
+    margin-bottom: 90px;
+    font-size: 36px;
 }
 
 .case-study-box {
     display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-bottom: 80px;
+}
+
+.case-study {
+    width: 430px;
     text-align: center;
 }
 
-.case-study-MV {
-    width: 80%;
+.case-study>img {
+    width: 100%;
+    margin-bottom: 46px;
 }
 
 .case-study-title {
     font-size: 24px;
-    padding-top: 46px;
 }
 
 .case-study-description {
@@ -139,12 +142,17 @@ dd:hover {
     padding: 20px 0;
 }
 
-.case-study-more {
-    width: 50%;
+.case-study a {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.case-study a img {
+    width: 100%;
 }
 
 .btn {
-    margin: 85px 0 60px 0;
     text-align: center;
 }
 
@@ -152,6 +160,7 @@ dd:hover {
     border: 1px solid #000;
     font-size: 20px;
     padding: 10px 30px;
+    display: inline-block;
 }
 
 .bottom-container {
