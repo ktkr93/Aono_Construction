@@ -163,13 +163,18 @@ dd:hover {
 }
 
 footer {
-    height: 156px;
     background-color: #000;
+}
+
+.footer-container {
+    width: 1100px;
+    height: 156px;
+    margin: 0 auto;
     padding-top: 40px;
     color: #fff;
 }
 
-.footer-container {
+.footer-nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
