@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+    font-family: 'Noto Serif JP', serif;
 }
 
 a:hover {
@@ -22,28 +22,32 @@ h2 {
     clear: both;
 }
 
-.page-top {
-    background-image: url(../images/main.png);
-    background-size: cover;
-    background-position: center;
-}
-
-.top-container {
-    height: 800px;
-    position: relative;
-}
-
-.header-inner {
-    margin: 0 auto;
-    padding: 30px 20px 0 20px;
-    max-width: 1140px;
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-logo img {
+.top-container {
+    background-image: url(../images/main.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.header-inner {
+    height: 800px;
+    margin: 0 auto;
+    padding: 30px 20px 0 20px;
+    max-width: 1140px;
+    position: relative;
+}
+
+.header-logo {
     width: 138.57px;
+}
+
+.header-logo img {
+    width: 100%;
 }
 
 ul {
@@ -53,7 +57,7 @@ ul {
 }
 
 li a {
-    padding: 0 25px;
+    margin: 0 25px;
     font-size: 18px;
 }
 
@@ -82,22 +86,24 @@ li a {
     margin: 0 auto;
 }
 
-dl {
+.news-container dl {
     width: 100%;
     font-size: 18px;
 }
 
-dt {
-    float: left;
-    font-weight: initial;
-    margin-right: 34px;
-}
-
-dd {
+.news-container dl a {
+    display: flex;
     margin-bottom: 20px;
     padding-bottom: 20px;
     border-bottom: solid 1px #000;
 }
+
+dt {
+    font-weight: initial;
+    margin-right: 34px;
+}
+
+dd {}
 
 dd:hover {
     opacity: 0.5;
@@ -111,22 +117,29 @@ dd:hover {
 }
 
 .page-case-study {
-    margin: 80px 0 160px 0;
+    margin-bottom: 180px;
 }
 
 .case-study-container {
-    max-width: 1000px;
-    width: 100%;
+    width: 1000px;
     margin: 0 auto;
+    padding: 0 10px;
 }
 
 .case-study-box {
     display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-bottom: 80px;
     text-align: center;
 }
 
-.case-study-MV {
-    width: 80%;
+.case-study {
+    width: 440px;
+}
+
+.case-study img {
+    width: 100%;
 }
 
 .case-study-title {
@@ -144,14 +157,16 @@ dd:hover {
 }
 
 .btn {
-    margin: 85px 0 60px 0;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid #000;
     text-align: center;
 }
 
 .btn a {
-    border: 1px solid #000;
-    font-size: 20px;
+    display: block;
     padding: 10px 30px;
+    font-size: 20px;
 }
 
 .bottom-container {
@@ -183,6 +198,10 @@ footer {
 
 .footer-logo {
     width: 92.38px;
+}
+
+.footer-logo a {
+    display: block;
 }
 
 .copyrihgt {
