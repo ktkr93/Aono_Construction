@@ -82,8 +82,9 @@ li a {
 }
 
 .news-container {
-    max-width: 700px;
+    max-width: 740px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .news-container dl {
@@ -93,9 +94,14 @@ li a {
 
 .news-container dl a {
     display: flex;
-    margin-bottom: 20px;
+    flex-wrap: wrap;
     padding-bottom: 20px;
     border-bottom: solid 1px #000;
+    align-items: center;
+}
+
+.news-container dl a:not(:last-child) {
+    margin-bottom: 20px;
 }
 
 dt {
@@ -111,6 +117,7 @@ dd:hover {
 }
 
 .news-box {
+    margin-left: 32px;
     font-size: 11px;
     padding: 4px;
     border: 1px solid #6A808A;
@@ -121,24 +128,23 @@ dd:hover {
 }
 
 .case-study-container {
-    width: 1000px;
+    max-width: 1040px;
     margin: 0 auto;
-    padding: 0 10px;
 }
 
 .case-study-box {
     display: flex;
     justify-content: space-between;
-    gap: 120px;
     margin-bottom: 80px;
     text-align: center;
 }
 
 .case-study {
-    width: 440px;
+    max-width: 480px;
+    padding: 0 20px;
 }
 
-.case-study img {
+.case-study-mv {
     width: 100%;
 }
 
@@ -153,7 +159,7 @@ dd:hover {
 }
 
 .case-study-more {
-    width: 50%;
+    max-width: 300px;
 }
 
 .btn {

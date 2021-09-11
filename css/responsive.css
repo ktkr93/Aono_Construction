@@ -78,39 +78,39 @@
         font-size: 24px;
     }
     .page-news {
-        margin: 50px 0 100px 0;
+        margin: 50px 0 107px 0;
     }
     .news-container {
         width: 100%;
         margin: 0 auto;
     }
-    dt {
-        float: left;
+    .news-container dt {
         font-weight: initial;
         margin-right: 14px;
+        font-size: 13px;
+    }
+    .news-box {
+        margin-left: 17px;
     }
     dd {
-        margin-bottom: 20px;
-        padding: 20px 0 20px 0;
-        border-bottom: solid 1px #000;
-        clear: left;
+        padding-top: 20px;
     }
     /* 「施工事例」エリア */
     .page-case-study {
-        margin: 80px 0 140px 0;
+        margin: 80px 0 110px 0;
     }
     .case-study-container {
         width: 100%;
-        margin: 0 auto;
     }
     .case-study-box {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        margin-bottom: 0;
     }
-    .case-study01 .case-study02 {
-        flex: auto;
-        width: 100%;
+    .case-study {
+        padding: 0 4%;
+        margin-bottom: 50px;
     }
     .case-study-MV {
         width: 100%;
@@ -123,14 +123,6 @@
         font-size: 12px;
         padding: 20px 0;
     }
-    .case-study-more {
-        width: 90%;
-        margin-bottom: 40px;
-    }
-    .btn {
-        margin-top: 30px;
-        text-align: center;
-    }
     /* リンクエリア */
     .bottom-container {
         display: flex;
@@ -142,28 +134,28 @@
     }
     /* footerエリア */
     footer {
-        height: 375px;
         background-color: #000;
-        padding-top: 40px;
-        color: #fff;
     }
     .footer-container {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 65px;
+        height: 378px;
+        width: 100%;
+        padding-top: 38px;
     }
-    .footer-container ul {
-        display: flex;
+    .footer-nav {
+        flex-direction: column-reverse;
+        gap: 54px;
+    }
+    .footer-menu ul {
         flex-direction: column;
         gap: 30px;
-    }
-    .page-header {
-        margin: 0 auto;
         text-align: center;
-        position: relative;
     }
+    .page-header {}
     .copyrihgt {
-        font-size: 12px;
+        margin-top: 26px;
         text-align: center;
+    }
+    .copyrihgt p {
+        font-size: 12px;
     }
 }
