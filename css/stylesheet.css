@@ -7,9 +7,12 @@ body {
     font-family: 'Noto Serif JP', serif;
 }
 
+a {
+    transition: .5s;
+}
+
 a:hover {
-    opacity: 0.5;
-    transition: all 0.5s;
+    opacity: .5;
 }
 
 h2 {
@@ -50,13 +53,13 @@ header {
     width: 100%;
 }
 
-ul {
+nav ul {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-li a {
+nav ul li a {
     margin: 0 25px;
     font-size: 18px;
 }
@@ -104,16 +107,9 @@ li a {
     margin-bottom: 20px;
 }
 
-dt {
+.news-container dl dt {
     font-weight: initial;
     margin-right: 34px;
-}
-
-dd {}
-
-dd:hover {
-    opacity: 0.5;
-    transition: all 0.5s;
 }
 
 .news-box {
