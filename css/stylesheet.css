@@ -293,6 +293,11 @@ nav ul li a {
  * ***************************************
  */
 
+.form p a {
+    color: #488dfc;
+    text-decoration: underline;
+}
+
 .contact .header-inner {
     height: auto;
     margin: 0 auto 120px auto;
@@ -324,8 +329,13 @@ nav ul li a {
     color: #73cbd6;
 }
 
+label[for] {
+    cursor: auto;
+}
+
 input[type="text"],
-input[type="email"] {
+input[type="email"],
+input[type="tel"] {
     width: 100%;
     padding: 10px;
     border: 1px solid #747474;
@@ -359,6 +369,73 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     opacity: .5;
+}
+
+select {
+    -webkit-appearance: none;
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    padding: 4px 2rem 4px 4px;
+    border-radius: 4px;
+    background: url(../images/caret-down.svg) no-repeat;
+    background-position: right 6px center;
+    background-size: 12px 12px;
+}
+
+
+/**
+ * ***************************************
+ * ［privacy.html］ページ
+ * ***************************************
+ */
+
+.privacy .page-privacy,
+.privacy-text {
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+
+.privacy .header-inner {
+    height: auto;
+    margin: 0 auto 120px auto;
+    padding: 30px 20px 0 20px;
+    max-width: 1140px;
+}
+
+.privacy-container {
+    max-width: 1140px;
+    margin: 0 auto 35px auto;
+    padding: 0 4%;
+    text-align: center;
+}
+
+.privacy-container h2 {
+    font-weight: bold;
+}
+
+.privacy-text-container {
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 4% 30px 4%;
+}
+
+.privacy-text-container h3 {
+    font-weight: bold;
+}
+
+.privacy-text-container p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.privacy-text-container ol {
+    margin: 20px 0 0 40px;
+}
+
+.privacy-text-container ol li {
+    list-style: outside decimal;
+    font-size: 0.95rem;
+    line-height: 140%;
+    margin: 10px 0 0 0;
 }
 
 footer {
