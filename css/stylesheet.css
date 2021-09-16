@@ -283,7 +283,7 @@ nav ul li a {
 
 .recruit .top-container {
     margin-bottom: 80px;
-    background-image: url(../images/recruit.png);
+    background-image: url(../images/recruit-MV.png);
     background-size: cover;
     background-position: center;
 }
@@ -451,6 +451,69 @@ select {
 .privacy-text-container p a {
     color: #488dfc;
     text-decoration: underline;
+}
+
+
+/**
+ * ***************************************
+ * ［news.html］ページ
+ * ***************************************
+ */
+
+.news .top-container {
+    margin-bottom: 80px;
+    background-image: url(../images/news.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.news .page-top-copy {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-96px, -44.9px);
+}
+
+
+/**
+ * ***************************************
+ * ［YYMMDD.html］ページ
+ * ***************************************
+ */
+
+.news-detail .top-container {
+    margin-bottom: 80px;
+    background-image: url(../images/news.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.news-detail .page-top-copy {
+    width: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-96px, -44.9px);
+}
+
+.news-detail-title {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: solid 1px #000;
+    align-items: center;
+}
+
+
+/**
+.news-detail .news-container a {
+    border-bottom: solid 1px #ddd;
+}
+**/
+
+.news-detail .news-container p {
+    margin: 20px 0;
 }
 
 footer {

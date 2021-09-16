@@ -176,6 +176,17 @@
     .recruit .page-top-copy {
         transform: translate(-48px, -13.5px);
     }
+    /**
+ * ***************************************
+ * ［news.html］ページ
+ * ***************************************
+ */
+    .news .page-top-copy {
+        transform: translate(-48px, -13.5px);
+    }
+    .news-detail .page-top-copy {
+        transform: translate(-48px, -13.5px);
+    }
     /* リンクエリア */
     .bottom-container {
         display: flex;
