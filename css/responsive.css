@@ -89,7 +89,12 @@
     nav ul li a {
         font-size: 24px;
     }
-    .page-top-copy {
+    /**
+ * ***************************************
+ * ［index.html］ページ
+ * ***************************************
+ */
+    .top .page-top-copy {
         width: 264px;
         transform: translate(-132px, -22.45px);
     }
@@ -97,7 +102,7 @@
         font-size: 24px;
     }
     /* 「お知らせ」エリア */
-    h2 {
+    .top h2 {
         text-align: center;
         margin-bottom: 40px;
         font-size: 24px;
@@ -120,7 +125,22 @@
     dd {
         padding-top: 20px;
     }
-    /* 「施工事例」エリア */
+    /**
+ * ***************************************
+ * ［corporait.html］ページ
+ * ***************************************
+ */
+    .corporait .page-top-copy {
+        transform: translate(-48px, -13.5px);
+    }
+    /**
+ * ***************************************
+ * ［example.html］ページ
+ * ***************************************
+ */
+    .example .page-top-copy {
+        transform: translate(-48px, -13.5px);
+    }
     .page-case-study {
         margin: 80px 0 110px 0;
     }
@@ -147,6 +167,14 @@
     .case-study-description {
         font-size: 12px;
         padding: 20px 0;
+    }
+    /**
+ * ***************************************
+ * ［recruit.html］ページ
+ * ***************************************
+ */
+    .recruit .page-top-copy {
+        transform: translate(-48px, -13.5px);
     }
     /* リンクエリア */
     .bottom-container {
