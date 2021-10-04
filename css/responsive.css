@@ -203,11 +203,15 @@
     .footer-container {
         height: 378px;
         width: 100%;
-        padding-top: 38px;
     }
     .footer-nav {
         flex-direction: column-reverse;
-        gap: 54px;
+    }
+    .footer-logo-inner {
+        padding-top: 54px;
+    }
+    .footer-logo-inner a {
+        display: block;
     }
     .footer-menu ul {
         flex-direction: column;
@@ -216,7 +220,7 @@
     }
     .page-header {}
     .copyrihgt {
-        margin-top: 26px;
+        padding-top: 26px;
         text-align: center;
     }
     .copyrihgt p {
