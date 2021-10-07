@@ -158,13 +158,21 @@
         flex-wrap: wrap;
         text-align: center;
         margin-bottom: 0;
+        justify-content: center;
     }
     .case-study {
         padding: 0 4%;
         margin-bottom: 50px;
+        width: 310px;
     }
     .case-study-MV {
         width: 100%;
+    }
+    .slick-prev {
+        left: -10.5%;
+    }
+    .slick-next {
+        right: -10.5%;
     }
     .case-study-title {
         font-size: 20px;
