@@ -249,7 +249,6 @@ nav ul li a {
 .case-study-box {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 80px;
     text-align: center;
 }
 
