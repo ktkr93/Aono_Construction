@@ -4,8 +4,9 @@
     =============================*/
     .btn-trigger {
         position: relative;
-        width: 20px;
         cursor: pointer;
+        width: 20px;
+        height: 30px;
     }
     .btn-trigger span {
         position: absolute;
@@ -17,18 +18,18 @@
     }
     .btn-trigger,
     .btn-trigger span {
-        display: inline-block;
+        display: block;
         transition: all .5s;
         box-sizing: border-box;
     }
     .btn-trigger span:nth-of-type(1) {
-        top: -6px;
+        top: 9px;
     }
     .btn-trigger span:nth-of-type(2) {
-        top: 0px;
+        top: 15px;
     }
     .btn-trigger span:nth-of-type(3) {
-        top: 6px;
+        top: 21px;
     }
     /*=============================
     #btn01
@@ -46,6 +47,33 @@
     }
     #btn01.active {
         z-index: 04;
+    }
+    .nav-wrapper {
+        display: none;
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 03;
+    }
+    .header-nav {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+    }
+    nav ul {
+        padding-top: 135px;
+        flex-direction: column;
+        gap: 54px;
+        align-items: center;
+    }
+    nav ul li a {
+        display: block;
+        font-size: 24px;
+    }
+    body.noscroll {
+        overflow: hidden;
     }
     .top-container {
         position: relative;
@@ -66,28 +94,6 @@
     }
     .header-logo {
         width: 70px;
-    }
-    .header-nav {
-        display: none;
-    }
-    .header-nav1 {
-        display: block;
-        position: absolute;
-        width: 100vw;
-        height: 100vh;
-        background-color: #fff;
-        z-index: 03;
-        top: 0;
-        left: 0;
-    }
-    nav ul {
-        margin-top: 135px;
-        flex-direction: column;
-        gap: 54px;
-        align-items: center;
-    }
-    nav ul li a {
-        font-size: 24px;
     }
     /**
  * ***************************************
@@ -151,14 +157,22 @@
         display: flex;
         flex-wrap: wrap;
         text-align: center;
-        margin-bottom: 0;
+        justify-content: center;
+        margin-bottom: 30px;
     }
     .case-study {
         padding: 0 4%;
         margin-bottom: 50px;
+        width: 310px;
     }
     .case-study-MV {
         width: 100%;
+    }
+    .slick-prev {
+        left: -10.5%;
+    }
+    .slick-next {
+        right: -10.5%;
     }
     .case-study-title {
         font-size: 20px;
@@ -196,6 +210,14 @@
         flex: auto;
         width: 100%;
     }
+    /**
+ * ***************************************
+ * ［contact.html］ページ
+ * ***************************************
+ */
+    .contact-container h2 {
+        font-size: 32px;
+    }
     /* footerエリア */
     footer {
         background-color: #000;
@@ -203,11 +225,15 @@
     .footer-container {
         height: 378px;
         width: 100%;
-        padding-top: 38px;
     }
     .footer-nav {
         flex-direction: column-reverse;
-        gap: 54px;
+    }
+    .footer-logo-inner {
+        padding-top: 54px;
+    }
+    .footer-logo-inner a {
+        display: block;
     }
     .footer-menu ul {
         flex-direction: column;
@@ -216,7 +242,7 @@
     }
     .page-header {}
     .copyrihgt {
-        margin-top: 26px;
+        padding-top: 26px;
         text-align: center;
     }
     .copyrihgt p {

@@ -2,6 +2,24 @@
 <html lang="ja">
 
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W76H9PT');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="蒼乃建設の公式サイトです。創業〇〇年、信頼と実績のある当社はさまざまなご依頼をいただきニーズに合ったご提案をいたします。">
@@ -22,6 +40,15 @@
 </head>
 
 <body class="news">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W76H9PT"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- splash -->
+    <div id="splash">
+        <div id="splash_text"></div>
+    </div>
+    <!--end splash-->
     <div class="top-container">
         <div class="header-inner">
             <header class="page-top">
@@ -35,13 +62,15 @@
                     <span></span>
                     <span></span>
                 </div>
-                <nav class="header-nav">
-                    <ul>
-                        <li><a href="../corporait.html">企業理念</a></li>
-                        <li><a href="../example.html">施工事例</a></li>
-                        <li><a href="../recruit.html">採用情報</a></li>
-                        <li><a href="../contact.html">お問い合わせ</a></li>
-                    </ul>
+                <nav class="nav-wrapper">
+                    <div class="header-nav">
+                        <ul>
+                            <li><a href="../corporait.html">企業理念</a></li>
+                            <li><a href="../example.html">施工事例</a></li>
+                            <li><a href="../recruit.html">採用情報</a></li>
+                            <li><a href="../contact.html">お問い合わせ</a></li>
+                        </ul>
+                    </div>
                 </nav>
             </header>
             <div class="page-top-copy">
@@ -75,18 +104,17 @@
     <footer class="page-footer">
         <div class="footer-container">
             <div class="footer-nav">
-                <div class="footer-logo">
+                <div class="footer-logo-inner">
                     <a href="../index.html">
                         <img class="footer-logo" src="../images/footer_logo.png" alt="ロゴ">
                     </a>
                 </div>
                 <div class="footer-menu">
                     <ul>
-                        <li>
-                            <li><a href="../corporait.html">企業理念</a></li>
-                            <li><a href="../example.html">施工事例</a></li>
-                            <li><a href="../recruit.html">採用情報</a></li>
-                            <li><a href="../contact.html">お問い合わせ</a></li>
+                        <li><a href="../corporait.html">企業理念</a></li>
+                        <li><a href="../example.html">施工事例</a></li>
+                        <li><a href="../recruit.html">採用情報</a></li>
+                        <li><a href="../contact.html">お問い合わせ</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,6 +123,13 @@
             </div>
         </div>
     </footer>
+    <!-- splash -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://rawgit.com/kimmobrunfeldt/progressbar.js/master/dist/progressbar.min.js"></script>
+    <!--IE11用-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js"></script>
+    <!-- end splash -->
     <script src="../js/script.js"></script>
 </body>
 
